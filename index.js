@@ -34,9 +34,9 @@ const blood = () => {
   let picture = Math.floor((Math.random() * 6) + 1); //take random picture of blood
   if(Math.floor((Math.random() * 2))) { //let fate decide if we show the blood
     cover.style.backgroundImage = "url(images/blood"+`${picture}`+".png)";
-    cover.style.animation = "blood .3s";
+    cover.style.animation = "blood .5s";
   }
-  setTimeout(function(){ cover.style.animation = null; }, 200);
+  setTimeout(function(){ cover.style.animation = null; }, 500);
 }
 
 const shot = () => {
