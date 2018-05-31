@@ -18,7 +18,7 @@ const checkAmmo = () => {
 const addBullet = () => {
   let newBullet = document.createElement('div');
   newBullet.classList.add('inner_bullets');
-  setTimeout(function() {bulletBox[0].appendChild(newBullet)}, 200);
+  bulletBox[0].appendChild(newBullet);
 }
 
 const reload = () => {
