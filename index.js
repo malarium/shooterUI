@@ -15,11 +15,11 @@ const checkAmmo = () => {
   }
 }
 
-setTimeout(const addBullet = () => {
+const addBullet = () => {
   let newBullet = document.createElement('div');
   newBullet.classList.add('inner_bullets');
   bulletBox[0].appendChild(newBullet);
-,100)}
+}
 
 const reload = () => {
   let amount = 20 - (bulletBox[0].childElementCount);
