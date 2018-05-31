@@ -48,16 +48,16 @@ const shot = () => {
   }
 }
 
-const visualShot = () => {
-    // document.body.style.animation = "shot .1s";
-    // setTimeout(function(){ document.body.style.animation = null; }, 100);
-}
+/*const visualShot = () => {
+    document.body.style.animation = "shot .1s";
+    setTimeout(function(){ document.body.style.animation = null; }, 100);
+}*/
 
 document.body.addEventListener('click', function(e) { //executes after mouse fires - take away one bullet from the Box
   let last = bulletBox[0].childElementCount;
   if (last) {
   shot();
-  visualShot();
+  //visualShot();
 }
 });
 
